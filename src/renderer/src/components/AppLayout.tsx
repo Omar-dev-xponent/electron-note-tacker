@@ -19,10 +19,7 @@ export const Sidebar = ({
   ...props
 }: ComponentProps<'aside'>): JSX.Element => {
   return (
-    <aside
-      className={twMerge('w-[250px] mt-10 h-[100vh + 10px] overflow-auto', className)}
-      {...props}
-    >
+    <aside className={twMerge('w-[250px]  h-[100vh + 10px] overflow-auto', className)} {...props}>
       {children}
     </aside>
   )

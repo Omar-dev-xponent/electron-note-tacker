@@ -13,6 +13,8 @@ function createWindow(): void {
     ...(process.platform === 'linux' ? { icon } : {}),
     center: true,
     title: 'NoteMark',
+    // frame: false,
+    // titleBarStyle: 'hidden',
     vibrancy: 'under-window',
     visualEffectState: 'active',
     webPreferences: {
